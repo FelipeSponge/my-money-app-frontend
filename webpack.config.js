@@ -19,7 +19,7 @@ module.exports = {
       bootstrap: "modules/admin-lte/bootstrap/js/bootstrap.js",
     },
   },
-  plugin: [
+  plugins: [
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
