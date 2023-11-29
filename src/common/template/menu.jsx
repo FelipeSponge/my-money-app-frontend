@@ -8,7 +8,7 @@ export default function menu(props) {
       <MenuItem path="#" label="Dashboard" icon="dashboard" />
       <MenuTree label="Cadastro" icon="edit">
         <MenuItem
-          path="#billingCycles"
+          path="billingCycles"
           label="Ciclos de Pagamentos"
           icon="usd"
         />
